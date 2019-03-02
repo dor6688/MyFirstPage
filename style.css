@@ -5,11 +5,22 @@
 	height: 200;
 	background: #00CED1;
 	font-size : 30px;
-	text-align : center;
-	color: white;
+	color: blue;
 	top: 0;
 	left: 0;
+	text-align:center;
+	z-index:999;
+	text-decoration: none;
 	
+}
+#menu a{
+	text-decoration:none;
+	color:blue;
+}
+
+#menu a:hover{
+	background: #00CED1;
+	color: yellow;
 }
 
 #name{
@@ -19,6 +30,10 @@
 #about{
 	font-size : 20px;
 	text-align : center;
+	max-width: 60%;
+	margin:auto;
+
+	
 }
 
 #photos{
